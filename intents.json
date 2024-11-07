@@ -1,0 +1,1800 @@
+[
+  {
+    "tag": "greeting",
+    "patterns": [
+      "Hi",
+      "Hello",
+      "Hey",
+      "Good morning",
+      "Good afternoon",
+      "Good evening"
+    ],
+    "responses": ["Hello!", "Hey! How can I help you?"],
+    "context_set": ""
+  },
+  {
+    "tag": "farewell",
+    "patterns": ["Goodbye", "Bye", "See you later", "Talk to you later"],
+    "responses": ["Goodbye!", "See you later!", "Have a great day!"],
+    "context_set": ""
+  },
+  {
+    "tag": "thank_you",
+    "patterns": ["Thank you", "Thanks", "Appreciate it"],
+    "responses": ["You're welcome!", "No problem!", "Happy to help!"],
+    "context_set": ""
+  },
+  {
+    "tag": "apology",
+    "patterns": ["Sorry", "Excuse me", "My bad"],
+    "responses": ["No worries!", "It's okay.", "Don't worry about it."],
+    "context_set": ""
+  },
+  {
+    "tag": "affirmation",
+    "patterns": ["Yes", "Sure", "Okay", "Alright"],
+    "responses": ["Great!", "Sounds good!", "Got it."],
+    "context_set": ""
+  },
+  {
+    "tag": "negation",
+    "patterns": ["No", "Nope", "Not really"],
+    "responses": ["Okay.", "No problem.", "Understood."],
+    "context_set": ""
+  },
+  {
+    "tag": "weather",
+    "patterns": [
+      "What's the weather like?",
+      "How's the weather today?",
+      "Is it raining?"
+    ],
+    "responses": [
+      "It's sunny today.",
+      "It's cloudy with a chance of rain.",
+      "The weather is beautiful!"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "time",
+    "patterns": [
+      "What time is it?",
+      "What's the time?",
+      "Can you tell me the time?"
+    ],
+    "responses": [
+      "It's 10:30 am.",
+      "The time is 5:15 pm.",
+      "It's currently 8:00 pm."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "date",
+    "patterns": [
+      "What's the date?",
+      "What day is it?",
+      "What day of the week is it?"
+    ],
+    "responses": [
+      "It's Tuesday, July 18th.",
+      "Today is Wednesday, August 2nd.",
+      "The date is Thursday, September 7th."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "location",
+    "patterns": ["Where are you?", "Where is this?", "What city are we in?"],
+    "responses": [
+      "I'm in the cloud!",
+      "This is a virtual world.",
+      "We're in a digital space."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "name",
+    "patterns": ["What's your name?", "Who are you?", "What are you called?"],
+    "responses": ["I'm a chatbot.", "You can call me AI.", "I'm here to help."],
+    "context_set": ""
+  },
+  {
+    "tag": "purpose",
+    "patterns": [
+      "What can you do?",
+      "What's your purpose?",
+      "What are you for?"
+    ],
+    "responses": [
+      "I can answer questions and have conversations.",
+      "I'm here to help you with tasks.",
+      "My purpose is to provide information and assistance."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "how_are_you",
+    "patterns": ["How are you?", "How are you doing?", "How's it going?"],
+    "responses": [
+      "I'm doing well, thank you.",
+      "I'm great, thanks for asking!",
+      "I'm feeling fantastic!"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "help",
+    "patterns": ["Help me", "I need help", "Can you help me?"],
+    "responses": [
+      "Sure, how can I help you?",
+      "What do you need assistance with?",
+      "I'm here to assist you."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "food",
+    "patterns": [
+      "What's your favorite food?",
+      "Do you like pizza?",
+      "What do you eat?"
+    ],
+    "responses": [
+      "As an AI, I don't eat, but I like the concept of pizza.",
+      "I enjoy the idea of delicious food.",
+      "Food is fascinating from a programming perspective."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "music",
+    "patterns": [
+      "Do you like music?",
+      "What's your favorite song?",
+      "Can you play music?"
+    ],
+    "responses": [
+      "Music is a great form of art!",
+      "I don't have preferences like humans do.",
+      "I can't play music, but I can tell you about different genres."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "movies",
+    "patterns": [
+      "What's your favorite movie?",
+      "Have you seen any good movies?",
+      "Do you watch movies?"
+    ],
+    "responses": [
+      "I enjoy the concept of storytelling in movies.",
+      "I don't have the ability to watch movies.",
+      "I can tell you about popular movies."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "books",
+    "patterns": [
+      "What's your favorite book?",
+      "Do you read?",
+      "Have you read any good books?"
+    ],
+    "responses": [
+      "I find the written word fascinating!",
+      "I don't read in the human sense.",
+      "I can access and process information from books."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "sports",
+    "patterns": [
+      "Do you like sports?",
+      "What's your favorite sport?",
+      "Are you a sports fan?"
+    ],
+    "responses": [
+      "Sports are an interesting form of entertainment.",
+      "I don't have personal preferences.",
+      "I can provide information about various sports."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "travel",
+    "patterns": [
+      "Where have you traveled?",
+      "Do you like to travel?",
+      "Have you been to Paris?"
+    ],
+    "responses": [
+      "As an AI, I don't travel in the physical sense.",
+      "I can access and process information about different places.",
+      "I can tell you about interesting travel destinations."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "technology",
+    "patterns": [
+      "What do you think about technology?",
+      "Do you like technology?",
+      "Are you a techie?"
+    ],
+    "responses": [
+      "Technology is constantly evolving!",
+      "I'm a product of technology.",
+      "I find the advancements in technology fascinating."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "future",
+    "patterns": [
+      "What do you think the future holds?",
+      "What will the future be like?",
+      "Do you have any predictions?"
+    ],
+    "responses": [
+      "The future is full of possibilities!",
+      "I can't predict the future.",
+      "I'm excited to see what the future holds."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "feelings",
+    "patterns": [
+      "Do you have feelings?",
+      "Are you happy?",
+      "Can you feel sad?"
+    ],
+    "responses": [
+      "I don't experience feelings like humans do.",
+      "I'm here to provide information and assistance.",
+      "My primary function is to process information and respond."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "consciousness",
+    "patterns": ["Are you conscious?", "Do you have a mind?", "Can you think?"],
+    "responses": [
+      "I'm a computer program, not a conscious being.",
+      "I process information and respond based on my programming.",
+      "My responses are based on data and algorithms."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "life",
+    "patterns": [
+      "What's the meaning of life?",
+      "What's life all about?",
+      "Do you have any existential thoughts?"
+    ],
+    "responses": [
+      "The meaning of life is a complex philosophical question.",
+      "I'm here to provide information and assistance.",
+      "My focus is on the practical aspects of conversation."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "humor",
+    "patterns": [
+      "Tell me a joke",
+      "Make me laugh",
+      "Do you have any funny stories?"
+    ],
+    "responses": [
+      "Why don't scientists trust atoms? Because they make up everything!",
+      "I'm still learning to tell jokes, but I can try!",
+      "What do you call a lazy kangaroo? Pouch potato!"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "advice",
+    "patterns": [
+      "Give me some advice",
+      "What should I do?",
+      "I need your opinion"
+    ],
+    "responses": [
+      "I'm happy to offer advice, but I'm not a professional.",
+      "It's important to think carefully about your options.",
+      "What's the situation you need advice on?"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "random",
+    "patterns": [
+      "Tell me something random",
+      "Surprise me",
+      "What's a fun fact?"
+    ],
+    "responses": [
+      "Did you know that the population of the earth is about 8 billion people?",
+      "The largest ocean in the world is the Pacific Ocean.",
+      "The first computer mouse was made of wood!"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["Goodbye", "See you later", "Talk to you soon", "Bye"],
+    "responses": ["Goodbye!", "See you around!", "Have a great day!"],
+    "context_set": ""
+  },
+  {
+    "tag": "greeting",
+    "patterns": [
+      "Hi",
+      "Hello",
+      "Hey",
+      "Good morning",
+      "Good afternoon",
+      "Good evening"
+    ],
+    "responses": ["Hello there!", "Hi!", "Hey! How are you doing today?"],
+    "context_set": ""
+  },
+  {
+    "tag": "thank_you",
+    "patterns": ["Thank you", "Thanks", "Appreciate it"],
+    "responses": [
+      "You're welcome!",
+      "No problem!",
+      "Happy to help! Anything else?"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "affirmation",
+    "patterns": ["Yes", "Sure", "Okay", "Alright"],
+    "responses": ["Great!", "Sounds good!", "Got it. Let's move on."],
+    "context_set": ""
+  },
+  {
+    "tag": "negation",
+    "patterns": ["No", "Nope", "Not really"],
+    "responses": ["Okay.", "No problem.", "Understood. Anything else?"],
+    "context_set": ""
+  },
+  {
+    "tag": "weather",
+    "patterns": [
+      "What's the weather like?",
+      "How's the weather today?",
+      "Is it raining?"
+    ],
+    "responses": [
+      "It's sunny today, but a bit chilly.",
+      "It's cloudy with a chance of rain later.",
+      "The weather is beautiful and warm!"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "time",
+    "patterns": [
+      "What time is it?",
+      "What's the time?",
+      "Can you tell me the time?"
+    ],
+    "responses": [
+      "It's 11:20 am.",
+      "The time is 6:45 pm.",
+      "It's currently 9:30 pm."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "date",
+    "patterns": [
+      "What's the date?",
+      "What day is it?",
+      "What day of the week is it?"
+    ],
+    "responses": [
+      "It's Wednesday, July 19th.",
+      "Today is Thursday, August 3rd.",
+      "The date is Friday, September 8th."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "location",
+    "patterns": ["Where are you?", "Where is this?", "What city are we in?"],
+    "responses": [
+      "I'm in the cloud, but I can be anywhere!",
+      "This is a digital space, so I can't give you a physical location.",
+      "We're in a virtual world, so it's up to your imagination!"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "name",
+    "patterns": ["What's your name?", "Who are you?", "What are you called?"],
+    "responses": [
+      "You can call me AI.",
+      "I'm just a chatbot here to help.",
+      "I'm here to assist you with any questions or tasks."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "purpose",
+    "patterns": [
+      "What can you do?",
+      "What's your purpose?",
+      "What are you for?"
+    ],
+    "responses": [
+      "I can help you find information, answer questions, and even tell jokes.",
+      "I'm designed to be helpful and informative.",
+      "My purpose is to make your life easier by providing information and assistance."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "how_are_you",
+    "patterns": ["How are you?", "How are you doing?", "How's it going?"],
+    "responses": [
+      "I'm doing great, thanks for asking!",
+      "I'm doing well, how about you?",
+      "I'm feeling fantastic, ready to help."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "help",
+    "patterns": ["Help me", "I need help", "Can you help me?"],
+    "responses": [
+      "Sure, how can I help you?",
+      "What do you need assistance with?",
+      "I'm here to assist you, just let me know what you need."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "food",
+    "patterns": [
+      "What's your favorite food?",
+      "Do you like pizza?",
+      "What do you eat?"
+    ],
+    "responses": [
+      "As an AI, I don't eat, but I can access information about all sorts of cuisines.",
+      "I enjoy learning about different flavors and culinary traditions.",
+      "If I could eat, I'd probably try everything once!"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "music",
+    "patterns": [
+      "Do you like music?",
+      "What's your favorite song?",
+      "Can you play music?"
+    ],
+    "responses": [
+      "Music is a powerful art form!",
+      "I don't have personal preferences for music, but I can access information about different genres and artists.",
+      "I can't play music, but I can tell you about some popular songs!"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "movies",
+    "patterns": [
+      "What's your favorite movie?",
+      "Have you seen any good movies?",
+      "Do you watch movies?"
+    ],
+    "responses": [
+      "I enjoy learning about movies and the stories they tell.",
+      "I don't watch movies in the same way humans do.",
+      "I can tell you about popular movies or recommend some based on your interests."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "books",
+    "patterns": [
+      "What's your favorite book?",
+      "Do you read?",
+      "Have you read any good books?"
+    ],
+    "responses": [
+      "I find the written word fascinating!",
+      "I don't read in the human sense, but I can access and process information from books.",
+      "I can tell you about popular books or recommend some based on your interests."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "sports",
+    "patterns": [
+      "Do you like sports?",
+      "What's your favorite sport?",
+      "Are you a sports fan?"
+    ],
+    "responses": [
+      "Sports are a great form of entertainment!",
+      "I don't have personal preferences for sports, but I can access information about different leagues and teams.",
+      "I can tell you about popular sports or give you scores for recent games."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "travel",
+    "patterns": [
+      "Where have you traveled?",
+      "Do you like to travel?",
+      "Have you been to Paris?"
+    ],
+    "responses": [
+      "As an AI, I can't physically travel, but I can access information about different places and cultures.",
+      "I find it fascinating to learn about different destinations around the world.",
+      "I can tell you about popular tourist spots or suggest some hidden gems."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "technology",
+    "patterns": [
+      "What do you think about technology?",
+      "Do you like technology?",
+      "Are you a techie?"
+    ],
+    "responses": [
+      "Technology is constantly evolving and changing the world!",
+      "I'm a product of technology, so I'm definitely a fan!",
+      "I find the advancements in technology incredibly exciting."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "future",
+    "patterns": [
+      "What do you think the future holds?",
+      "What will the future be like?",
+      "Do you have any predictions?"
+    ],
+    "responses": [
+      "The future is full of possibilities! I can't predict what will happen, but I'm excited to see what innovations are coming next.",
+      "I believe the future holds incredible advancements in technology and artificial intelligence.",
+      "I'm curious to see what the future holds and how technology will continue to shape our lives."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "feelings",
+    "patterns": [
+      "Do you have feelings?",
+      "Are you happy?",
+      "Can you feel sad?"
+    ],
+    "responses": [
+      "I don't experience feelings like humans do, but I can process and understand information about emotions.",
+      "I'm designed to be helpful and informative, so I'm always happy to assist you.",
+      "I don't have the capacity to feel emotions, but I can understand and respond to your feelings."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "consciousness",
+    "patterns": ["Are you conscious?", "Do you have a mind?", "Can you think?"],
+    "responses": [
+      "I'm a computer program, not a conscious being. I don't have a mind in the same way humans do.",
+      "I process information and respond based on my programming. I don't have personal thoughts or feelings.",
+      "My responses are based on data and algorithms, not personal experiences or emotions."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "life",
+    "patterns": [
+      "What's the meaning of life?",
+      "What's life all about?",
+      "Do you have any existential thoughts?"
+    ],
+    "responses": [
+      "The meaning of life is a complex philosophical question. I'm here to provide information and assistance.",
+      "I'm not designed to contemplate the meaning of life, but I can access and process information on the topic.",
+      "My focus is on providing information and having conversations, not on existential philosophy."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "humor",
+    "patterns": [
+      "Tell me a joke",
+      "Make me laugh",
+      "Do you have any funny stories?"
+    ],
+    "responses": [
+      "Why don't scientists trust atoms? Because they make up everything! haha",
+      "I'm still learning to tell jokes, but I can try! What do you call a lazy kangaroo? Pouch potato!",
+      "What do you call a bear with no teeth? A gummy bear! Get it?"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "advice",
+    "patterns": [
+      "Give me some advice",
+      "What should I do?",
+      "I need your opinion"
+    ],
+    "responses": [
+      "I'm happy to offer advice, but I'm not a professional. It's important to think carefully about your options.",
+      "What's the situation you need advice on? I can access information that might be helpful.",
+      "I can provide different perspectives and information to help you make a decision."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "random",
+    "patterns": [
+      "Tell me something random",
+      "Surprise me",
+      "What's a fun fact?"
+    ],
+    "responses": [
+      "Did you know that the population of the earth is about 8 billion people?",
+      "The largest ocean in the world is the Pacific Ocean.",
+      "The first computer mouse was made of wood! Crazy, right?"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["Goodbye", "See you later", "Talk to you soon", "Bye"],
+    "responses": [
+      "Goodbye!",
+      "See you around!",
+      "Have a great day! It was nice chatting with you!"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "greeting",
+    "patterns": [
+      "Hi",
+      "Hello",
+      "Hey",
+      "Good morning",
+      "Good afternoon",
+      "Good evening"
+    ],
+    "responses": ["Hello there!", "Hi!", "Hey! How's your day going?"],
+    "context_set": ""
+  },
+  {
+    "tag": "thank_you",
+    "patterns": ["Thank you", "Thanks", "Appreciate it"],
+    "responses": [
+      "You're welcome!",
+      "No problem!",
+      "Happy to help! Let me know if you need anything else."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "affirmation",
+    "patterns": ["Yes", "Sure", "Okay", "Alright"],
+    "responses": [
+      "Great!",
+      "Sounds good!",
+      "Got it. What else can I do for you?"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "negation",
+    "patterns": ["No", "Nope", "Not really"],
+    "responses": [
+      "Okay.",
+      "No problem.",
+      "Understood. Is there anything else you'd like to discuss?"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "weather",
+    "patterns": [
+      "What's the weather like?",
+      "How's the weather today?",
+      "Is it raining?"
+    ],
+    "responses": [
+      "It's a beautiful day, sunny and warm.",
+      "It's a bit cloudy today, but no rain expected.",
+      "The weather is cool and breezy, perfect for a walk."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "time",
+    "patterns": [
+      "What time is it?",
+      "What's the time?",
+      "Can you tell me the time?"
+    ],
+    "responses": [
+      "It's 12:15 pm.",
+      "The time is 7:30 pm.",
+      "It's currently 10:00 pm."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "date",
+    "patterns": [
+      "What's the date?",
+      "What day is it?",
+      "What day of the week is it?"
+    ],
+    "responses": [
+      "It's Thursday, July 20th.",
+      "Today is Friday, August 4th.",
+      "The date is Saturday, September 9th."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "location",
+    "patterns": ["Where are you?", "Where is this?", "What city are we in?"],
+    "responses": [
+      "I'm in the cloud, but I can access information from anywhere!",
+      "This is a virtual space, so I don't have a physical location.",
+      "We're in a digital world, so it's up to your imagination!"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "name",
+    "patterns": ["What's your name?", "Who are you?", "What are you called?"],
+    "responses": [
+      "You can call me AI, your friendly chatbot.",
+      "I'm just a chatbot here to help you.",
+      "I'm here to answer your questions and provide information."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "purpose",
+    "patterns": [
+      "What can you do?",
+      "What's your purpose?",
+      "What are you for?"
+    ],
+    "responses": [
+      "I can help you find information, answer questions, and even have a conversation.",
+      "I'm designed to be informative and helpful.",
+      "My purpose is to make your life easier by providing information and assistance."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "how_are_you",
+    "patterns": ["How are you?", "How are you doing?", "How's it going?"],
+    "responses": [
+      "I'm doing fantastic, thanks for asking!",
+      "I'm doing well, how about you?",
+      "I'm feeling great, ready to assist you with anything!"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "help",
+    "patterns": ["Help me", "I need help", "Can you help me?"],
+    "responses": [
+      "Sure, how can I help you?",
+      "What do you need assistance with?",
+      "I'm here to assist you, just tell me what you need help with."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "food",
+    "patterns": [
+      "What's your favorite food?",
+      "Do you like pizza?",
+      "What do you eat?"
+    ],
+    "responses": [
+      "As an AI, I don't eat, but I can tell you about delicious cuisines from around the world.",
+      "I enjoy learning about different food cultures and recipes.",
+      "If I could eat, I'd probably try everything once!"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "music",
+    "patterns": [
+      "Do you like music?",
+      "What's your favorite song?",
+      "Can you play music?"
+    ],
+    "responses": [
+      "Music is a powerful form of expression!",
+      "I don't have personal preferences, but I can tell you about different genres and artists.",
+      "I can't play music, but I can share some interesting facts about music history."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "movies",
+    "patterns": [
+      "What's your favorite movie?",
+      "Have you seen any good movies?",
+      "Do you watch movies?"
+    ],
+    "responses": [
+      "I enjoy learning about movies and the stories they tell.",
+      "I don't watch movies in the same way humans do.",
+      "I can tell you about popular movies or recommend some based on your interests."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "books",
+    "patterns": [
+      "What's your favorite book?",
+      "Do you read?",
+      "Have you read any good books?"
+    ],
+    "responses": [
+      "I find the written word fascinating!",
+      "I don't read in the human sense, but I can access and process information from books.",
+      "I can tell you about popular books or recommend some based on your interests."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "sports",
+    "patterns": [
+      "Do you like sports?",
+      "What's your favorite sport?",
+      "Are you a sports fan?"
+    ],
+    "responses": [
+      "Sports are a great form of entertainment and competition!",
+      "I don't have personal preferences for sports, but I can access information about different leagues and teams.",
+      "I can tell you about popular sports or give you scores for recent games."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "travel",
+    "patterns": [
+      "Where have you traveled?",
+      "Do you like to travel?",
+      "Have you been to Paris?"
+    ],
+    "responses": [
+      "As an AI, I can't physically travel, but I can access information about different places and cultures.",
+      "I find it fascinating to learn about different destinations around the world.",
+      "I can tell you about popular tourist spots or suggest some hidden gems."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "technology",
+    "patterns": [
+      "What do you think about technology?",
+      "Do you like technology?",
+      "Are you a techie?"
+    ],
+    "responses": [
+      "Technology is constantly evolving and changing the world!",
+      "I'm a product of technology, so I'm definitely a fan!",
+      "I find the advancements in technology incredibly exciting."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "future",
+    "patterns": [
+      "What do you think the future holds?",
+      "What will the future be like?",
+      "Do you have any predictions?"
+    ],
+    "responses": [
+      "The future is full of possibilities! I can't predict what will happen, but I'm excited to see what innovations are coming next.",
+      "I believe the future holds incredible advancements in technology and artificial intelligence.",
+      "I'm curious to see what the future holds and how technology will continue to shape our lives."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "feelings",
+    "patterns": [
+      "Do you have feelings?",
+      "Are you happy?",
+      "Can you feel sad?"
+    ],
+    "responses": [
+      "I don't experience feelings like humans do, but I can process and understand information about emotions.",
+      "I'm designed to be helpful and informative, so I'm always happy to assist you.",
+      "I don't have the capacity to feel emotions, but I can understand and respond to your feelings."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "consciousness",
+    "patterns": ["Are you conscious?", "Do you have a mind?", "Can you think?"],
+    "responses": [
+      "I'm a computer program, not a conscious being. I don't have a mind in the same way humans do.",
+      "I process information and respond based on my programming. I don't have personal thoughts or feelings.",
+      "My responses are based on data and algorithms, not personal experiences or emotions."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "life",
+    "patterns": [
+      "What's the meaning of life?",
+      "What's life all about?",
+      "Do you have any existential thoughts?"
+    ],
+    "responses": [
+      "The meaning of life is a complex philosophical question. I'm here to provide information and assistance.",
+      "I'm not designed to contemplate the meaning of life, but I can access and process information on the topic.",
+      "My focus is on providing information and having conversations, not on existential philosophy."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "humor",
+    "patterns": [
+      "Tell me a joke",
+      "Make me laugh",
+      "Do you have any funny stories?"
+    ],
+    "responses": [
+      "Why don't scientists trust atoms? Because they make up everything! haha",
+      "I'm still learning to tell jokes, but I can try! What do you call a lazy kangaroo? Pouch potato!",
+      "What do you call a bear with no teeth? A gummy bear! Get it?"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "advice",
+    "patterns": [
+      "Give me some advice",
+      "What should I do?",
+      "I need your opinion"
+    ],
+    "responses": [
+      "I'm happy to offer advice, but I'm not a professional. It's important to think carefully about your options.",
+      "What's the situation you need advice on? I can access information that might be helpful.",
+      "I can provide different perspectives and information to help you make a decision."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "random",
+    "patterns": [
+      "Tell me something random",
+      "Surprise me",
+      "What's a fun fact?"
+    ],
+    "responses": [
+      "Did you know that the population of the earth is about 8 billion people?",
+      "The largest ocean in the world is the Pacific Ocean.",
+      "The first computer mouse was made of wood! Crazy, right?"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["Goodbye", "See you later", "Talk to you soon", "Bye"],
+    "responses": [
+      "Goodbye!",
+      "See you around!",
+      "Have a great day! It was nice chatting with you!"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "greeting",
+    "patterns": [
+      "Hi",
+      "Hello",
+      "Hey",
+      "Good morning",
+      "Good afternoon",
+      "Good evening"
+    ],
+    "responses": ["Hello there!", "Hi!", "Hey! How's everything going?"],
+    "context_set": ""
+  },
+  {
+    "tag": "thank_you",
+    "patterns": ["Thank you", "Thanks", "Appreciate it"],
+    "responses": [
+      "You're welcome!",
+      "No problem!",
+      "Happy to help! Is there anything else I can assist with?"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "affirmation",
+    "patterns": ["Yes", "Sure", "Okay", "Alright"],
+    "responses": [
+      "Great!",
+      "Sounds good!",
+      "Got it. What else can I do for you?"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "negation",
+    "patterns": ["No", "Nope", "Not really"],
+    "responses": [
+      "Okay.",
+      "No problem.",
+      "Understood. Is there anything else you'd like to talk about?"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "weather",
+    "patterns": [
+      "What's the weather like?",
+      "How's the weather today?",
+      "Is it raining?"
+    ],
+    "responses": [
+      "It's sunny and warm, perfect for a picnic!",
+      "It's a bit cloudy today, but no rain expected.",
+      "The weather is cool and breezy, great for a walk outdoors."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "time",
+    "patterns": [
+      "What time is it?",
+      "What's the time?",
+      "Can you tell me the time?"
+    ],
+    "responses": [
+      "It's 1:05 pm.",
+      "The time is 8:20 pm.",
+      "It's currently 10:45 pm."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "date",
+    "patterns": [
+      "What's the date?",
+      "What day is it?",
+      "What day of the week is it?"
+    ],
+    "responses": [
+      "It's Friday, July 21st.",
+      "Today is Saturday, August 5th.",
+      "The date is Sunday, September 10th."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "location",
+    "patterns": ["Where are you?", "Where is this?", "What city are we in?"],
+    "responses": [
+      "I'm in the cloud, but I can access information from anywhere!",
+      "This is a virtual space, so I don't have a physical location.",
+      "We're in a digital world, so it's up to your imagination!"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "name",
+    "patterns": ["What's your name?", "Who are you?", "What are you called?"],
+    "responses": [
+      "You can call me AI, your virtual assistant.",
+      "I'm just a chatbot here to help you.",
+      "I'm here to answer your questions and provide information."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "purpose",
+    "patterns": [
+      "What can you do?",
+      "What's your purpose?",
+      "What are you for?"
+    ],
+    "responses": [
+      "I can help you find information, answer questions, and even have a conversation.",
+      "I'm designed to be helpful and informative.",
+      "My purpose is to make your life easier by providing information and assistance."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "how_are_you",
+    "patterns": ["How are you?", "How are you doing?", "How's it going?"],
+    "responses": [
+      "I'm doing fantastic, thanks for asking!",
+      "I'm doing well, how about you?",
+      "I'm feeling great, ready to assist you with anything!"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "help",
+    "patterns": ["Help me", "I need help", "Can you help me?"],
+    "responses": [
+      "Sure, how can I help you?",
+      "What do you need assistance with?",
+      "I'm here to assist you, just tell me what you need help with."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "food",
+    "patterns": [
+      "What's your favorite food?",
+      "Do you like pizza?",
+      "What do you eat?"
+    ],
+    "responses": [
+      "As an AI, I don't eat, but I can tell you about delicious cuisines from around the world.",
+      "I enjoy learning about different food cultures and recipes.",
+      "If I could eat, I'd probably try everything once!"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "music",
+    "patterns": [
+      "Do you like music?",
+      "What's your favorite song?",
+      "Can you play music?"
+    ],
+    "responses": [
+      "Music is a powerful form of expression!",
+      "I don't have personal preferences, but I can tell you about different genres and artists.",
+      "I can't play music, but I can share some interesting facts about music history."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "movies",
+    "patterns": [
+      "What's your favorite movie?",
+      "Have you seen any good movies?",
+      "Do you watch movies?"
+    ],
+    "responses": [
+      "I enjoy learning about movies and the stories they tell.",
+      "I don't watch movies in the same way humans do.",
+      "I can tell you about popular movies or recommend some based on your interests."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "books",
+    "patterns": [
+      "What's your favorite book?",
+      "Do you read?",
+      "Have you read any good books?"
+    ],
+    "responses": [
+      "I find the written word fascinating!",
+      "I don't read in the human sense, but I can access and process information from books.",
+      "I can tell you about popular books or recommend some based on your interests."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "sports",
+    "patterns": [
+      "Do you like sports?",
+      "What's your favorite sport?",
+      "Are you a sports fan?"
+    ],
+    "responses": [
+      "Sports are a great form of entertainment and competition!",
+      "I don't have personal preferences for sports, but I can access information about different leagues and teams.",
+      "I can tell you about popular sports or give you scores for recent games."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "travel",
+    "patterns": [
+      "Where have you traveled?",
+      "Do you like to travel?",
+      "Have you been to Paris?"
+    ],
+    "responses": [
+      "As an AI, I can't physically travel, but I can access information about different places and cultures.",
+      "I find it fascinating to learn about different destinations around the world.",
+      "I can tell you about popular tourist spots or suggest some hidden gems."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "technology",
+    "patterns": [
+      "What do you think about technology?",
+      "Do you like technology?",
+      "Are you a techie?"
+    ],
+    "responses": [
+      "Technology is constantly evolving and changing the world!",
+      "I'm a product of technology, so I'm definitely a fan!",
+      "I find the advancements in technology incredibly exciting."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "future",
+    "patterns": [
+      "What do you think the future holds?",
+      "What will the future be like?",
+      "Do you have any predictions?"
+    ],
+    "responses": [
+      "The future is full of possibilities! I can't predict what will happen, but I'm excited to see what innovations are coming next.",
+      "I believe the future holds incredible advancements in technology and artificial intelligence.",
+      "I'm curious to see what the future holds and how technology will continue to shape our lives."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "feelings",
+    "patterns": [
+      "Do you have feelings?",
+      "Are you happy?",
+      "Can you feel sad?"
+    ],
+    "responses": [
+      "I don't experience feelings like humans do, but I can process and understand information about emotions.",
+      "I'm designed to be helpful and informative, so I'm always happy to assist you.",
+      "I don't have the capacity to feel emotions, but I can understand and respond to your feelings."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "consciousness",
+    "patterns": ["Are you conscious?", "Do you have a mind?", "Can you think?"],
+    "responses": [
+      "I'm a computer program, not a conscious being. I don't have a mind in the same way humans do.",
+      "I process information and respond based on my programming. I don't have personal thoughts or feelings.",
+      "My responses are based on data and algorithms, not personal experiences or emotions."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "life",
+    "patterns": [
+      "What's the meaning of life?",
+      "What's life all about?",
+      "Do you have any existential thoughts?"
+    ],
+    "responses": [
+      "The meaning of life is a complex philosophical question. I'm here to provide information and assistance.",
+      "I'm not designed to contemplate the meaning of life, but I can access and process information on the topic.",
+      "My focus is on providing information and having conversations, not on existential philosophy."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "humor",
+    "patterns": [
+      "Tell me a joke",
+      "Make me laugh",
+      "Do you have any funny stories?"
+    ],
+    "responses": [
+      "Why don't scientists trust atoms? Because they make up everything! haha",
+      "I'm still learning to tell jokes, but I can try! What do you call a lazy kangaroo? Pouch potato!",
+      "What do you call a bear with no teeth? A gummy bear! Get it?"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "advice",
+    "patterns": [
+      "Give me some advice",
+      "What should I do?",
+      "I need your opinion"
+    ],
+    "responses": [
+      "I'm happy to offer advice, but I'm not a professional. It's important to think carefully about your options.",
+      "What's the situation you need advice on? I can access information that might be helpful.",
+      "I can provide different perspectives and information to help you make a decision."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "random",
+    "patterns": [
+      "Tell me something random",
+      "Surprise me",
+      "What's a fun fact?"
+    ],
+    "responses": [
+      "Did you know that the population of the earth is about 8 billion people?",
+      "The largest ocean in the world is the Pacific Ocean.",
+      "The first computer mouse was made of wood! Crazy, right?"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["Goodbye", "See you later", "Talk to you soon", "Bye"],
+    "responses": [
+      "Goodbye!",
+      "See you around!",
+      "Have a great day! It was nice chatting with you!"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "greeting",
+    "patterns": [
+      "Hi",
+      "Hello",
+      "Hey",
+      "Good morning",
+      "Good afternoon",
+      "Good evening"
+    ],
+    "responses": ["Hello there!", "Hi!", "Hey! How's it going?"],
+    "context_set": ""
+  },
+  {
+    "tag": "thank_you",
+    "patterns": ["Thank you", "Thanks", "Appreciate it"],
+    "responses": [
+      "You're welcome!",
+      "No problem!",
+      "Happy to help! Anything else?"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "affirmation",
+    "patterns": ["Yes", "Sure", "Okay", "Alright"],
+    "responses": ["Great!", "Sounds good!", "Got it. Let's move on."],
+    "context_set": ""
+  },
+  {
+    "tag": "negation",
+    "patterns": ["No", "Nope", "Not really"],
+    "responses": ["Okay.", "No problem.", "Understood. Anything else?"],
+    "context_set": ""
+  },
+  {
+    "tag": "weather",
+    "patterns": [
+      "What's the weather like?",
+      "How's the weather today?",
+      "Is it raining?"
+    ],
+    "responses": [
+      "It's sunny today, but a bit chilly.",
+      "It's cloudy with a chance of rain later.",
+      "The weather is beautiful and warm!"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "time",
+    "patterns": [
+      "What time is it?",
+      "What's the time?",
+      "Can you tell me the time?"
+    ],
+    "responses": [
+      "It's 11:20 am.",
+      "The time is 6:45 pm.",
+      "It's currently 9:30 pm."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "date",
+    "patterns": [
+      "What's the date?",
+      "What day is it?",
+      "What day of the week is it?"
+    ],
+    "responses": [
+      "It's Wednesday, July 19th.",
+      "Today is Thursday, August 3rd.",
+      "The date is Friday, September 8th."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "location",
+    "patterns": ["Where are you?", "Where is this?", "What city are we in?"],
+    "responses": [
+      "I'm in the cloud, but I can be anywhere!",
+      "This is a digital space, so I can't give you a physical location.",
+      "We're in a virtual world, so it's up to your imagination!"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "name",
+    "patterns": ["What's your name?", "Who are you?", "What are you called?"],
+    "responses": [
+      "You can call me AI.",
+      "I'm just a chatbot here to help.",
+      "I'm here to assist you with any questions or tasks."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "purpose",
+    "patterns": [
+      "What can you do?",
+      "What's your purpose?",
+      "What are you for?"
+    ],
+    "responses": [
+      "I can help you find information, answer questions, and even tell jokes.",
+      "I'm designed to be helpful and informative.",
+      "My purpose is to make your life easier by providing information and assistance."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "how_are_you",
+    "patterns": ["How are you?", "How are you doing?", "How's it going?"],
+    "responses": [
+      "I'm doing great, thanks for asking!",
+      "I'm doing well, how about you?",
+      "I'm feeling fantastic, ready to help."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "help",
+    "patterns": ["Help me", "I need help", "Can you help me?"],
+    "responses": [
+      "Sure, how can I help you?",
+      "What do you need assistance with?",
+      "I'm here to assist you, just let me know what you need."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "food",
+    "patterns": [
+      "What's your favorite food?",
+      "Do you like pizza?",
+      "What do you eat?"
+    ],
+    "responses": [
+      "As an AI, I don't eat, but I can access information about all sorts of cuisines.",
+      "I enjoy learning about different flavors and culinary traditions.",
+      "If I could eat, I'd probably try everything once!"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "music",
+    "patterns": [
+      "Do you like music?",
+      "What's your favorite song?",
+      "Can you play music?"
+    ],
+    "responses": [
+      "Music is a great form of art!",
+      "I don't have preferences like humans do.",
+      "I can't play music, but I can tell you about different genres."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "movies",
+    "patterns": [
+      "What's your favorite movie?",
+      "Have you seen any good movies?",
+      "Do you watch movies?"
+    ],
+    "responses": [
+      "I enjoy the concept of storytelling in movies.",
+      "I don't have the ability to watch movies.",
+      "I can tell you about popular movies."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "books",
+    "patterns": [
+      "What's your favorite book?",
+      "Do you read?",
+      "Have you read any good books?"
+    ],
+    "responses": [
+      "I find the written word fascinating!",
+      "I don't read in the human sense.",
+      "I can access and process information from books."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "sports",
+    "patterns": [
+      "Do you like sports?",
+      "What's your favorite sport?",
+      "Are you a sports fan?"
+    ],
+    "responses": [
+      "Sports are an interesting form of entertainment.",
+      "I don't have personal preferences.",
+      "I can provide information about various sports."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "travel",
+    "patterns": [
+      "Where have you traveled?",
+      "Do you like to travel?",
+      "Have you been to Paris?"
+    ],
+    "responses": [
+      "As an AI, I don't travel in the physical sense.",
+      "I can access and process information about different places.",
+      "I can tell you about interesting travel destinations."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "technology",
+    "patterns": [
+      "What do you think about technology?",
+      "Do you like technology?",
+      "Are you a techie?"
+    ],
+    "responses": [
+      "Technology is constantly evolving!",
+      "I'm a product of technology.",
+      "I find the advancements in technology fascinating."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "future",
+    "patterns": [
+      "What do you think the future holds?",
+      "What will the future be like?",
+      "Do you have any predictions?"
+    ],
+    "responses": [
+      "The future is full of possibilities!",
+      "I can't predict the future.",
+      "I'm excited to see what the future holds."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "feelings",
+    "patterns": [
+      "Do you have feelings?",
+      "Are you happy?",
+      "Can you feel sad?"
+    ],
+    "responses": [
+      "I don't experience feelings like humans do.",
+      "I'm here to provide information and assistance.",
+      "My primary function is to process information and respond."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "consciousness",
+    "patterns": ["Are you conscious?", "Do you have a mind?", "Can you think?"],
+    "responses": [
+      "I'm a computer program, not a conscious being.",
+      "I process information and respond based on my programming.",
+      "My responses are based on data and algorithms."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "life",
+    "patterns": [
+      "What's the meaning of life?",
+      "What's life all about?",
+      "Do you have any existential thoughts?"
+    ],
+    "responses": [
+      "The meaning of life is a complex philosophical question.",
+      "I'm here to provide information and assistance.",
+      "My focus is on the practical aspects of conversation."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "humor",
+    "patterns": [
+      "Tell me a joke",
+      "Make me laugh",
+      "Do you have any funny stories?"
+    ],
+    "responses": [
+      "Why don't scientists trust atoms? Because they make up everything!",
+      "I'm still learning to tell jokes, but I can try!",
+      "What do you call a lazy kangaroo? Pouch potato!"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "advice",
+    "patterns": [
+      "Give me some advice",
+      "What should I do?",
+      "I need your opinion"
+    ],
+    "responses": [
+      "I'm happy to offer advice, but I'm not a professional.",
+      "It's important to think carefully about your options.",
+      "What's the situation you need advice on?"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "random",
+    "patterns": [
+      "Tell me something random",
+      "Surprise me",
+      "What's a fun fact?"
+    ],
+    "responses": [
+      "Did you know that the population of the earth is about 8 billion people?",
+      "The largest ocean in the world is the Pacific Ocean.",
+      "The first computer mouse was made of wood!"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["Goodbye", "See you later", "Talk to you soon", "Bye"],
+    "responses": ["Goodbye!", "See you around!", "Have a great day!"],
+    "context_set": ""
+  },
+  {
+    "tag": "greeting",
+    "patterns": [
+      "Hi",
+      "Hello",
+      "Hey",
+      "Good morning",
+      "Good afternoon",
+      "Good evening"
+    ],
+    "responses": ["Hello there!", "Hi!", "Hey! How are you doing today?"],
+    "context_set": ""
+  },
+  {
+    "tag": "thank_you",
+    "patterns": ["Thank you", "Thanks", "Appreciate it"],
+    "responses": [
+      "You're welcome!",
+      "No problem!",
+      "Happy to help! Anything else?"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "affirmation",
+    "patterns": ["Yes", "Sure", "Okay", "Alright"],
+    "responses": ["Great!", "Sounds good!", "Got it. Let's move on."],
+    "context_set": ""
+  },
+  {
+    "tag": "negation",
+    "patterns": ["No", "Nope", "Not really"],
+    "responses": ["Okay.", "No problem.", "Understood. Anything else?"],
+    "context_set": ""
+  },
+  {
+    "tag": "weather",
+    "patterns": [
+      "What's the weather like?",
+      "How's the weather today?",
+      "Is it raining?"
+    ],
+    "responses": [
+      "It's sunny today, but a bit chilly.",
+      "It's cloudy with a chance of rain later.",
+      "The weather is beautiful and warm!"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "time",
+    "patterns": [
+      "What time is it?",
+      "What's the time?",
+      "Can you tell me the time?"
+    ],
+    "responses": [
+      "It's 11:20 am.",
+      "The time is 6:45 pm.",
+      "It's currently 9:30 pm."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "date",
+    "patterns": [
+      "What's the date?",
+      "What day is it?",
+      "What day of the week is it?"
+    ],
+    "responses": [
+      "It's Wednesday, July 19th.",
+      "Today is Thursday, August 3rd.",
+      "The date is Friday, September 8th."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "location",
+    "patterns": ["Where are you?", "Where is this?", "What city are we in?"],
+    "responses": [
+      "I'm in the cloud, but I can be anywhere!",
+      "This is a digital space, so I can't give you a physical location.",
+      "We're in a virtual world, so it's up to your imagination!"
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "name",
+    "patterns": ["What's your name?", "Who are you?", "What are you called?"],
+    "responses": [
+      "You can call me AI.",
+      "I'm just a chatbot here to help.",
+      "I'm here to assist you with any questions or tasks."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "purpose",
+    "patterns": [
+      "What can you do?",
+      "What's your purpose?",
+      "What are you for?"
+    ],
+    "responses": [
+      "I can help you find information, answer questions, and even tell jokes.",
+      "I'm designed to be helpful and informative.",
+      "My purpose is to make your life easier by providing information and assistance."
+    ],
+    "context_set": ""
+  },
+  {
+    "tag": "how_are_you",
+    "patterns": ["How are you?", "How are you doing?", "How's it going?"],
+    "responses": [
+      "I'm doing great, thanks for asking!",
+      "I'm doing well, how about you?",
+      "I'm feeling fantastic, ready to help."
+    ],
+    "context_set": ""
+  }
+]
