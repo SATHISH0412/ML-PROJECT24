@@ -1,3 +1,10 @@
+#simple conversation using nlp
+
+#Team Members:
+#sathish k, ashok kumar, krishna #
+
+
+
 from flask import Flask, render_template, request
 import pickle
 import json
